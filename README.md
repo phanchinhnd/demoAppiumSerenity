@@ -165,6 +165,7 @@ or
 mvn clean
 mvn instal
 mvn clean verify
+mvn clean verify -Dtags="@TC_01"
 ```
 3. Access on project 'target/site/index.html' and open Chrome browser to see results dasboards.
 
